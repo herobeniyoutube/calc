@@ -34,15 +34,15 @@ while (true)
                     Console.WriteLine("Равно: " + num1);
                     break;
                 case "-":
-                    num1 += num2;
+                    num1 -= num2;
                     Console.WriteLine("Равно: " + num1);
                     break;
                 case "*":
-                    num1 += num2;
+                    num1 *= num2;
                     Console.WriteLine("Равно: " + num1);
                     break;
                 case "/":
-                    num1 += num2;
+                    num1 /= num2;
                     Console.WriteLine("Равно: " + num1);
                     break;
                 default:
